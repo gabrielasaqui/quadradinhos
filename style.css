@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(6, min-content);
+    gap: 10px;
+}
+
+div {
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#bold {
+    border: 10px solid black;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
